@@ -28,7 +28,7 @@ class heroi {
     }
 }
 
-personagem1 = new heroi ("Mateus", 24, "guerreiro")
+ personagem1 = new heroi ("Mateus", 24, "guerreiro")
 personagem2 = new heroi ("Mateus", 24, "mago")
 personagem3 = new heroi ("Mateus", 24, "monge")
 personagem4 = new heroi ("Mateus", 24, "ninja")
@@ -37,4 +37,3 @@ console.log(`O ${personagem1.classe} atacou usando ${personagem1.atacar()}`)
 console.log(`O ${personagem2.classe} atacou usando ${personagem2.atacar()}`)
 console.log(`O ${personagem3.classe} atacou usando ${personagem3.atacar()}`)
 console.log(`O ${personagem4.classe} atacou usando ${personagem4.atacar()}`)
-
